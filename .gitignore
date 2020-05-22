@@ -10,3 +10,4 @@ build-*
 *.directory
 *.autosave
 *Thumbs.db
+build

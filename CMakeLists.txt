@@ -23,3 +23,4 @@ add_subdirectory( Core )
 #add_subdirectory( Demo )
 
 target_link_libraries( QtnProperty PRIVATE Core)
+target_include_directories( QtnProperty PUBLIC Core )
