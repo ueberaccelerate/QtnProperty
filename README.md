@@ -4,6 +4,9 @@
 This is user and programmist friendly properties for Qt framework.
 See [wiki](https://github.com/lexxmark/QtnProperty/wiki) for some details.
 
+# Update 
+* cmake support
+
 # Overview
 There are some limitations of standard Qt property system.
 This project is an attempt to make better properties.
