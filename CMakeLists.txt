@@ -14,7 +14,7 @@ add_library( QtnProperty STATIC src/dump.cpp)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
-find_package(Qt5 COMPONENTS Widgets Core REQUIRED)
+find_package(Qt5 COMPONENTS Widgets Core Script REQUIRED)
 
 target_link_libraries ( QtnProperty PRIVATE cppfeatures cppwarnings)
 

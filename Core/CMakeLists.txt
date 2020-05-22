@@ -59,4 +59,4 @@ GUI/PropertyButton.h
 GUI/PropertyQFont.h
 )
 
-target_link_libraries( Core PRIVATE Qt5::Widgets Qt5::Core)
+target_link_libraries( Core PRIVATE Qt5::Widgets Qt5::Core Qt5::Script)
