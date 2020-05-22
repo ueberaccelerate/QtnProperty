@@ -15,8 +15,9 @@
 */
 
 #include "PropertyDelegateAux.h"
-#include "PropertyView.h"
+#include "../PropertyView.h"
 #include <QMouseEvent>
+#include <QToolTip>
 
 QtnSubItem::QtnSubItem(const QRect &rect)
     : rect(rect),

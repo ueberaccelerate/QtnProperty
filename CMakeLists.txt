@@ -19,8 +19,8 @@ target_link_libraries ( QtnProperty PRIVATE cppfeatures cppwarnings)
 
 add_subdirectory( Core )
 #add_subdirectory( PEG )
-#add_subdirectory( PropertyWidget )
+add_subdirectory( PropertyWidget )
 #add_subdirectory( Demo )
 
-target_link_libraries( QtnProperty PRIVATE Core)
-target_include_directories( QtnProperty PUBLIC Core )
+target_link_libraries( QtnProperty PRIVATE Core PropertyWidget)
+target_include_directories( QtnProperty PUBLIC Core PropertyWidget)

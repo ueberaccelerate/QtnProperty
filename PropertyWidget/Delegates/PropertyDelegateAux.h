@@ -18,6 +18,7 @@
 #define QTN_PROPERTY_DELEGATE_AUX_H
 
 #include "../PropertyWidgetAPI.h"
+#include <PropertyBase.h>
 
 #include <functional>
 #include <QStyleOption>

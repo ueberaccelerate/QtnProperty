@@ -20,6 +20,8 @@
 #include "../Utils/PropertyEditorHandler.h"
 #include "../Utils/PropertyEditorAux.h"
 
+#include <Core/PropertyEnum.h>
+
 #include <QComboBox>
 #include <QStyledItemDelegate>
 #include <QPaintEvent>
