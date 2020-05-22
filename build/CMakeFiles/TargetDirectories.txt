@@ -1,0 +1,6 @@
+/Users/admin/Documents/projects/github/QtnProperty/build/CMakeFiles/QtnProperty.dir
+/Users/admin/Documents/projects/github/QtnProperty/build/CMakeFiles/ALL_BUILD.dir
+/Users/admin/Documents/projects/github/QtnProperty/build/CMakeFiles/ZERO_CHECK.dir
+/Users/admin/Documents/projects/github/QtnProperty/build/Core/CMakeFiles/Core.dir
+/Users/admin/Documents/projects/github/QtnProperty/build/Core/CMakeFiles/ALL_BUILD.dir
+/Users/admin/Documents/projects/github/QtnProperty/build/Core/CMakeFiles/ZERO_CHECK.dir

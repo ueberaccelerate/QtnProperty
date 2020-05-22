@@ -1,0 +1,1013 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C8796CF207114B629424F1BB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 292B57DBCEDF48B990316081 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2B533AE33C134CAAAF4AA923 /* CMake Rules */,
+			);
+			dependencies = (
+				E58E6D82823349DB83274CA6 /* PBXTargetDependency */,
+				4FD6CE546C7C4FB384A72C8D /* PBXTargetDependency */,
+				1378798096704A3D8D0568A3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DDCFC5D297324E7CAC8E8B56 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6602FF8B484A4EF39D25EA7E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				85402E7B92B04E5DAD678B95 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00D104B4C5494E72B0A7317F /* /Users/admin/Documents/projects/github/QtnProperty/Core/Enum.h */ = {isa = PBXBuildFile; fileRef = EDF2D8175823445B825BDDF8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Enum.h */; };
+		043052E6FA5F4A729455E093 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Property.h */ = {isa = PBXBuildFile; fileRef = A764D25F85494A6592A2DBAF /* /Users/admin/Documents/projects/github/QtnProperty/Core/Property.h */; };
+		069E59DD20AE4808B98FDA08 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQColor.cpp */ = {isa = PBXBuildFile; fileRef = 68E650AD2C9B4BD7817A710A /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQColor.cpp */; };
+		074D14C621BD42928513C453 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQColor.h */ = {isa = PBXBuildFile; fileRef = B45E050BD680403EAE001D6A /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQColor.h */; };
+		07DB4F127F604852BF9CB319 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnum.cpp */ = {isa = PBXBuildFile; fileRef = BD55AEA0E2DD47469936C6B9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnum.cpp */; };
+		15EAD201510246F29D33686B /* /Users/admin/Documents/projects/github/QtnProperty/Core/QObjectPropertySet.cpp */ = {isa = PBXBuildFile; fileRef = B08FB76E70774ED1A9F8FDB2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/QObjectPropertySet.cpp */; };
+		1607F435E45648D693E1367F /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQFont.h */ = {isa = PBXBuildFile; fileRef = 20232F5DF5AB41C0973074EF /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQFont.h */; };
+		1B0A51B9F0524B219C148A95 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSizeF.h */ = {isa = PBXBuildFile; fileRef = 8819ED83CD0545FBA712CF95 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSizeF.h */; };
+		1D139970A63C4421816658F2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/QObjectPropertySet.h */ = {isa = PBXBuildFile; fileRef = 0B446E1EAE5A4B24A330C1FC /* /Users/admin/Documents/projects/github/QtnProperty/Core/QObjectPropertySet.h */; };
+		2A5F0A6A07D34897A317C7DF /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyInt.cpp */ = {isa = PBXBuildFile; fileRef = A2835E832C7848E4997BC2E5 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyInt.cpp */; };
+		2F3750EF36C54CBEBAF89DA9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQPen.h */ = {isa = PBXBuildFile; fileRef = DBC6B03DDE8E45D780D6B52B /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQPen.h */; };
+		3E874FD82F8846D6A22CE650 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertySet.cpp */ = {isa = PBXBuildFile; fileRef = 61B6A70030B14B86A9D3C586 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertySet.cpp */; };
+		475F5EB288CA4A5F9DCA091C /* /Users/admin/Documents/projects/github/QtnProperty/Core/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BF2F098FC9334313A4522AEB /* /Users/admin/Documents/projects/github/QtnProperty/Core/CMakeLists.txt */; };
+		4B3959480C5B4C3AAA3E6EE5 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRectF.cpp */ = {isa = PBXBuildFile; fileRef = 25E35FF672EF4C3A971E1455 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRectF.cpp */; };
+		51F02FE299CA402A9B9EE675 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPoint.h */ = {isa = PBXBuildFile; fileRef = 1825E0085B924594888C7804 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPoint.h */; };
+		57F52EC2884E4A37989BE17D /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnum.h */ = {isa = PBXBuildFile; fileRef = 1F0F2D431BAA4D289CDFD8F7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnum.h */; };
+		58E4B5CDA79349909C5956D2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyUInt.h */ = {isa = PBXBuildFile; fileRef = C21D53A01F284CE799909D7E /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyUInt.h */; };
+		5D6F646E801D44D5A683975A /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyDouble.h */ = {isa = PBXBuildFile; fileRef = 3F04524DD2E54220BEEF37B2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyDouble.h */; };
+		5F5760038D954503B419FA1B /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyDouble.cpp */ = {isa = PBXBuildFile; fileRef = C31D8DE00241481CB45EA7F8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyDouble.cpp */; };
+		630B7543403849F5BE2C394E /* /Users/admin/Documents/projects/github/QtnProperty/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 70DED088E0F14AA292FD593B /* /Users/admin/Documents/projects/github/QtnProperty/CMakeLists.txt */; };
+		78E789D55E0E46AE9D113EAA /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyInt.h */ = {isa = PBXBuildFile; fileRef = F7CE967586DB440FBA0E62F2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyInt.h */; };
+		7BE20BD821944FCDB1DAC7DC /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyGUI.h */ = {isa = PBXBuildFile; fileRef = 06DB789E9C834C5EB2CFAC9B /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyGUI.h */; };
+		80622A5B064F4432A5540F62 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyBase.h */ = {isa = PBXBuildFile; fileRef = 0800F8285248447DB18149B4 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyBase.h */; };
+		90BB9E958F784587BBAF9886 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPoint.cpp */ = {isa = PBXBuildFile; fileRef = 5D27C80BD8CB44B79DF139E9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPoint.cpp */; };
+		9884438E2B484F20A1B39EB8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyButton.cpp */ = {isa = PBXBuildFile; fileRef = F717A535953A4E28A08C556D /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyButton.cpp */; };
+		98E6423959E74BE6A5644DA0 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQPen.cpp */ = {isa = PBXBuildFile; fileRef = FA2E52C7AC4C4183B96A197A /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQPen.cpp */; };
+		9FA83EA809A546FDA5A898B7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQString.h */ = {isa = PBXBuildFile; fileRef = 717CA42473374454851FE318 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQString.h */; };
+		A1A4B7F9BBA64AD5A66170CB /* /Users/admin/Documents/projects/github/QtnProperty/Core/Property.cpp */ = {isa = PBXBuildFile; fileRef = BFCC234AACAE42C78570472C /* /Users/admin/Documents/projects/github/QtnProperty/Core/Property.cpp */; };
+		A49B788EBBF9407BAEFD1AA3 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyAux.h */ = {isa = PBXBuildFile; fileRef = 0F5A85CF7ADB4D989B798D0B /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyAux.h */; };
+		A4BF27FA6A8648CAA8DCA448 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyBase.cpp */ = {isa = PBXBuildFile; fileRef = 6E37FD9A2C0B4F7E859C2C6C /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyBase.cpp */; };
+		ACAB37C8AAAA4E56BFFA024F /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertySet.h */ = {isa = PBXBuildFile; fileRef = 2D50AC34D4414CA5A742D0D8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertySet.h */; };
+		AD68EDA6212B49A693C09D7C /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyUInt.cpp */ = {isa = PBXBuildFile; fileRef = 8965F31E2C4B4A9E919A524F /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyUInt.cpp */; };
+		B10F91AF8669478083D6327E /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQString.cpp */ = {isa = PBXBuildFile; fileRef = A21A9B75728948D0A09478B2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQString.cpp */; };
+		B453B522E4B04FD689BC0FE7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Enum.cpp */ = {isa = PBXBuildFile; fileRef = 3704E188C4914ECAAADF93A7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Enum.cpp */; };
+		B6FEB6481C8240D39FAB8528 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQBrush.h */ = {isa = PBXBuildFile; fileRef = 5A5BA59E590243A39FA3FCDC /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQBrush.h */; };
+		B730630357F84ADAB974415F /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnumFlags.h */ = {isa = PBXBuildFile; fileRef = A8D768BB7FF74A5CB9FC3879 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnumFlags.h */; };
+		B7336518669F44A98EC77028 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyBool.h */ = {isa = PBXBuildFile; fileRef = 76F7022AC4FE4D839935E15D /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyBool.h */; };
+		B80DCF21E4D64D1A86501BE0 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRectF.h */ = {isa = PBXBuildFile; fileRef = 889F1EB60170439F89FAEF4E /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRectF.h */; };
+		BD59BF4A5E63477E9A0D2505 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRect.cpp */ = {isa = PBXBuildFile; fileRef = 0A7E83C7CC704D9AA3FF24D1 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRect.cpp */; };
+		BF8FAD0ADE7D4899975F4537 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQFont.cpp */ = {isa = PBXBuildFile; fileRef = DA9A2CE8355145B5AF75B785 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQFont.cpp */; };
+		CF851CB6CBE74E1F814D62A1 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyMacro.h */ = {isa = PBXBuildFile; fileRef = C29A41B4CDF84BC59E6B27F7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyMacro.h */; };
+		CF9F5EB466E1440FA785C050 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyCore.h */ = {isa = PBXBuildFile; fileRef = 759A0DC0DED5455BA1D7794E /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyCore.h */; };
+		D1207D591079443EBF87FF45 /* /Users/admin/Documents/projects/github/QtnProperty/Core/CoreAPI.h */ = {isa = PBXBuildFile; fileRef = 8293F6D366F4448E8271C609 /* /Users/admin/Documents/projects/github/QtnProperty/Core/CoreAPI.h */; };
+		D5AC1F20EF214C5290937AE8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSizeF.cpp */ = {isa = PBXBuildFile; fileRef = 3BD74CB4A0694927B3E27005 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSizeF.cpp */; };
+		D8BD05EC68984837A6F54D91 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnumFlags.cpp */ = {isa = PBXBuildFile; fileRef = 8A950F2DC4B7483685376412 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnumFlags.cpp */; };
+		DC3D74B8EEE24718AFBBED9A /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPointF.h */ = {isa = PBXBuildFile; fileRef = 1631A2910A6548818E74C152 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPointF.h */; };
+		DE8D9EAC7B7F4FF58A921DF1 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyDelegateInfo.h */ = {isa = PBXBuildFile; fileRef = 84BA52CF13B643C1A41ED0D4 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyDelegateInfo.h */; };
+		E028623197CA4E7FAA9DB5EA /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyButton.h */ = {isa = PBXBuildFile; fileRef = A74E2B95AA9B4234B858EE90 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyButton.h */; };
+		E2DCE4C9EE0144A396FD23B0 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSize.cpp */ = {isa = PBXBuildFile; fileRef = 80CA1793590E4E37BB090958 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSize.cpp */; };
+		E30762EC07AA4105909C70A9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyFloat.cpp */ = {isa = PBXBuildFile; fileRef = B74E321A20B548F5943D4BCE /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyFloat.cpp */; };
+		F1586AFF5DCB4C8196ED9BF8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyTemplates.h */ = {isa = PBXBuildFile; fileRef = 555F42A049C04469BDEA4AD9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyTemplates.h */; };
+		F1A6387A67434EC9B22EBD1B /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRect.h */ = {isa = PBXBuildFile; fileRef = 0B7F8C5A646148298656BFEA /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRect.h */; };
+		F211EE75B7E747ABA70F66D0 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyBool.cpp */ = {isa = PBXBuildFile; fileRef = 8C85505F993F43129F189003 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyBool.cpp */; };
+		F7ECF615B06149C68155009A /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPointF.cpp */ = {isa = PBXBuildFile; fileRef = 0651C217A75F4DEC9C5AD890 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPointF.cpp */; };
+		FADF055445B941738B920E57 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyFloat.h */ = {isa = PBXBuildFile; fileRef = DD150D5121754E8595593E5C /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyFloat.h */; };
+		FAE60C1D528B4D1383DECE40 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSize.h */ = {isa = PBXBuildFile; fileRef = 7EB648DB4BE64230A0B71A03 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSize.h */; };
+		FBE8BC556CE64852A64C6A9F /* /Users/admin/Documents/projects/github/QtnProperty/src/dump.cpp */ = {isa = PBXBuildFile; fileRef = B332A53FEDC84FC4B6F9DC35 /* /Users/admin/Documents/projects/github/QtnProperty/src/dump.cpp */; };
+		FFDD98EEBA004C709ACB6C54 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQBrush.cpp */ = {isa = PBXBuildFile; fileRef = C5AF85DD00B2459BA4D9710D /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQBrush.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		443B65E1D8BF4BD7A2D3E610 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		66253756F3D64A75B20EB640 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		667BA314C08F4FA8AEF1C5D6 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F9064B5A02ED4CE085BDF19C /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		402E8D142863472BB6D837CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131FD5CE505F476B8DBD5928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCFC5D297324E7CAC8E8B56;
+			remoteInfo = ZERO_CHECK;
+		};
+		6639CE3F1628492684DC2791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131FD5CE505F476B8DBD5928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D1209194B14338B3FAD226;
+			remoteInfo = Core;
+		};
+		97DC6E45959F4225AA26A24A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131FD5CE505F476B8DBD5928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 866C42045C214DB98DFC9DF1;
+			remoteInfo = QtnProperty;
+		};
+		BA15771C954D4F8881E53848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131FD5CE505F476B8DBD5928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCFC5D297324E7CAC8E8B56;
+			remoteInfo = ZERO_CHECK;
+		};
+		E48C72DBD8644C45A0373E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131FD5CE505F476B8DBD5928 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5D1209194B14338B3FAD226;
+			remoteInfo = Core;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0651C217A75F4DEC9C5AD890 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPointF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQPointF.cpp; path = Core/Core/PropertyQPointF.cpp; sourceTree = SOURCE_ROOT; };
+		06DB789E9C834C5EB2CFAC9B /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyGUI.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyGUI.h; path = Core/PropertyGUI.h; sourceTree = SOURCE_ROOT; };
+		0800F8285248447DB18149B4 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyBase.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyBase.h; path = Core/PropertyBase.h; sourceTree = SOURCE_ROOT; };
+		0A7E83C7CC704D9AA3FF24D1 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQRect.cpp; path = Core/Core/PropertyQRect.cpp; sourceTree = SOURCE_ROOT; };
+		0B446E1EAE5A4B24A330C1FC /* /Users/admin/Documents/projects/github/QtnProperty/Core/QObjectPropertySet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = QObjectPropertySet.h; path = Core/QObjectPropertySet.h; sourceTree = SOURCE_ROOT; };
+		0B7F8C5A646148298656BFEA /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQRect.h; path = Core/Core/PropertyQRect.h; sourceTree = SOURCE_ROOT; };
+		0F5A85CF7ADB4D989B798D0B /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyAux.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyAux.h; path = Core/Auxiliary/PropertyAux.h; sourceTree = SOURCE_ROOT; };
+		1631A2910A6548818E74C152 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPointF.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQPointF.h; path = Core/Core/PropertyQPointF.h; sourceTree = SOURCE_ROOT; };
+		1825E0085B924594888C7804 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPoint.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQPoint.h; path = Core/Core/PropertyQPoint.h; sourceTree = SOURCE_ROOT; };
+		1F0F2D431BAA4D289CDFD8F7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnum.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyEnum.h; path = Core/Core/PropertyEnum.h; sourceTree = SOURCE_ROOT; };
+		20232F5DF5AB41C0973074EF /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQFont.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQFont.h; path = Core/GUI/PropertyQFont.h; sourceTree = SOURCE_ROOT; };
+		25E35FF672EF4C3A971E1455 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRectF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQRectF.cpp; path = Core/Core/PropertyQRectF.cpp; sourceTree = SOURCE_ROOT; };
+		2D50AC34D4414CA5A742D0D8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertySet.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertySet.h; path = Core/PropertySet.h; sourceTree = SOURCE_ROOT; };
+		3704E188C4914ECAAADF93A7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Enum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Enum.cpp; path = Core/Enum.cpp; sourceTree = SOURCE_ROOT; };
+		3BD74CB4A0694927B3E27005 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSizeF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQSizeF.cpp; path = Core/Core/PropertyQSizeF.cpp; sourceTree = SOURCE_ROOT; };
+		3F04524DD2E54220BEEF37B2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyDouble.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyDouble.h; path = Core/Core/PropertyDouble.h; sourceTree = SOURCE_ROOT; };
+		555F42A049C04469BDEA4AD9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyTemplates.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyTemplates.h; path = Core/Auxiliary/PropertyTemplates.h; sourceTree = SOURCE_ROOT; };
+		565B11A9A7234B848D3CC461 /* /Users/admin/Documents/projects/github/QtnProperty/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5A5BA59E590243A39FA3FCDC /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQBrush.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQBrush.h; path = Core/GUI/PropertyQBrush.h; sourceTree = SOURCE_ROOT; };
+		5D27C80BD8CB44B79DF139E9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPoint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQPoint.cpp; path = Core/Core/PropertyQPoint.cpp; sourceTree = SOURCE_ROOT; };
+		61B6A70030B14B86A9D3C586 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertySet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertySet.cpp; path = Core/PropertySet.cpp; sourceTree = SOURCE_ROOT; };
+		68E650AD2C9B4BD7817A710A /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQColor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQColor.cpp; path = Core/GUI/PropertyQColor.cpp; sourceTree = SOURCE_ROOT; };
+		6E37FD9A2C0B4F7E859C2C6C /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyBase.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyBase.cpp; path = Core/PropertyBase.cpp; sourceTree = SOURCE_ROOT; };
+		70DED088E0F14AA292FD593B /* /Users/admin/Documents/projects/github/QtnProperty/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		717CA42473374454851FE318 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQString.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQString.h; path = Core/Core/PropertyQString.h; sourceTree = SOURCE_ROOT; };
+		759A0DC0DED5455BA1D7794E /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyCore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyCore.h; path = Core/PropertyCore.h; sourceTree = SOURCE_ROOT; };
+		76F7022AC4FE4D839935E15D /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyBool.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyBool.h; path = Core/Core/PropertyBool.h; sourceTree = SOURCE_ROOT; };
+		7EB648DB4BE64230A0B71A03 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSize.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQSize.h; path = Core/Core/PropertyQSize.h; sourceTree = SOURCE_ROOT; };
+		80CA1793590E4E37BB090958 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSize.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQSize.cpp; path = Core/Core/PropertyQSize.cpp; sourceTree = SOURCE_ROOT; };
+		8293F6D366F4448E8271C609 /* /Users/admin/Documents/projects/github/QtnProperty/Core/CoreAPI.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CoreAPI.h; path = Core/CoreAPI.h; sourceTree = SOURCE_ROOT; };
+		84BA52CF13B643C1A41ED0D4 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyDelegateInfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyDelegateInfo.h; path = Core/Auxiliary/PropertyDelegateInfo.h; sourceTree = SOURCE_ROOT; };
+		8819ED83CD0545FBA712CF95 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSizeF.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQSizeF.h; path = Core/Core/PropertyQSizeF.h; sourceTree = SOURCE_ROOT; };
+		889F1EB60170439F89FAEF4E /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRectF.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQRectF.h; path = Core/Core/PropertyQRectF.h; sourceTree = SOURCE_ROOT; };
+		8965F31E2C4B4A9E919A524F /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyUInt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyUInt.cpp; path = Core/Core/PropertyUInt.cpp; sourceTree = SOURCE_ROOT; };
+		8A950F2DC4B7483685376412 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnumFlags.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyEnumFlags.cpp; path = Core/Core/PropertyEnumFlags.cpp; sourceTree = SOURCE_ROOT; };
+		8C85505F993F43129F189003 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyBool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyBool.cpp; path = Core/Core/PropertyBool.cpp; sourceTree = SOURCE_ROOT; };
+		A21A9B75728948D0A09478B2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQString.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQString.cpp; path = Core/Core/PropertyQString.cpp; sourceTree = SOURCE_ROOT; };
+		A2835E832C7848E4997BC2E5 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyInt.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyInt.cpp; path = Core/Core/PropertyInt.cpp; sourceTree = SOURCE_ROOT; };
+		A74E2B95AA9B4234B858EE90 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyButton.h; path = Core/GUI/PropertyButton.h; sourceTree = SOURCE_ROOT; };
+		A764D25F85494A6592A2DBAF /* /Users/admin/Documents/projects/github/QtnProperty/Core/Property.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Property.h; path = Core/Property.h; sourceTree = SOURCE_ROOT; };
+		A8D768BB7FF74A5CB9FC3879 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnumFlags.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyEnumFlags.h; path = Core/Core/PropertyEnumFlags.h; sourceTree = SOURCE_ROOT; };
+		B08FB76E70774ED1A9F8FDB2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/QObjectPropertySet.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = QObjectPropertySet.cpp; path = Core/QObjectPropertySet.cpp; sourceTree = SOURCE_ROOT; };
+		B332A53FEDC84FC4B6F9DC35 /* /Users/admin/Documents/projects/github/QtnProperty/src/dump.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dump.cpp; path = src/dump.cpp; sourceTree = SOURCE_ROOT; };
+		B45E050BD680403EAE001D6A /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQColor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQColor.h; path = Core/GUI/PropertyQColor.h; sourceTree = SOURCE_ROOT; };
+		B74E321A20B548F5943D4BCE /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyFloat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyFloat.cpp; path = Core/Core/PropertyFloat.cpp; sourceTree = SOURCE_ROOT; };
+		B7FBB41D942344CA87549BB3 /* QtnProperty */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libQtnProperty.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD55AEA0E2DD47469936C6B9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyEnum.cpp; path = Core/Core/PropertyEnum.cpp; sourceTree = SOURCE_ROOT; };
+		BF2F098FC9334313A4522AEB /* /Users/admin/Documents/projects/github/QtnProperty/Core/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Core/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BFCC234AACAE42C78570472C /* /Users/admin/Documents/projects/github/QtnProperty/Core/Property.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Property.cpp; path = Core/Property.cpp; sourceTree = SOURCE_ROOT; };
+		C21D53A01F284CE799909D7E /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyUInt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyUInt.h; path = Core/Core/PropertyUInt.h; sourceTree = SOURCE_ROOT; };
+		C29A41B4CDF84BC59E6B27F7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyMacro.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyMacro.h; path = Core/Auxiliary/PropertyMacro.h; sourceTree = SOURCE_ROOT; };
+		C31D8DE00241481CB45EA7F8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyDouble.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyDouble.cpp; path = Core/Core/PropertyDouble.cpp; sourceTree = SOURCE_ROOT; };
+		C5AF85DD00B2459BA4D9710D /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQBrush.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQBrush.cpp; path = Core/GUI/PropertyQBrush.cpp; sourceTree = SOURCE_ROOT; };
+		C9301CBD4C414460BF4CB9F8 /* Core */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA9A2CE8355145B5AF75B785 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQFont.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQFont.cpp; path = Core/GUI/PropertyQFont.cpp; sourceTree = SOURCE_ROOT; };
+		DBC6B03DDE8E45D780D6B52B /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQPen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyQPen.h; path = Core/GUI/PropertyQPen.h; sourceTree = SOURCE_ROOT; };
+		DD150D5121754E8595593E5C /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyFloat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyFloat.h; path = Core/Core/PropertyFloat.h; sourceTree = SOURCE_ROOT; };
+		EDF2D8175823445B825BDDF8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Enum.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Enum.h; path = Core/Enum.h; sourceTree = SOURCE_ROOT; };
+		F717A535953A4E28A08C556D /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyButton.cpp; path = Core/GUI/PropertyButton.cpp; sourceTree = SOURCE_ROOT; };
+		F7CE967586DB440FBA0E62F2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyInt.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = PropertyInt.h; path = Core/Core/PropertyInt.h; sourceTree = SOURCE_ROOT; };
+		FA2E52C7AC4C4183B96A197A /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQPen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PropertyQPen.cpp; path = Core/GUI/PropertyQPen.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1C4503116D9D4814A1F20755 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B332A53FEDC84FC4B6F9DC35 /* /Users/admin/Documents/projects/github/QtnProperty/src/dump.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1E26DDD5D59E46AA80768643 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2295ED95DD1F4AF1AAF7F3B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9301CBD4C414460BF4CB9F8 /* Core */,
+				B7FBB41D942344CA87549BB3 /* QtnProperty */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EDF329DE828435C993600A5 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				1E26DDD5D59E46AA80768643 /* CMake Rules */,
+				565B11A9A7234B848D3CC461 /* /Users/admin/Documents/projects/github/QtnProperty/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		55557DB1AD394E7FAE38FB64 /* QtnProperty */ = {
+			isa = PBXGroup;
+			children = (
+				1C4503116D9D4814A1F20755 /* Source Files */,
+				70DED088E0F14AA292FD593B /* /Users/admin/Documents/projects/github/QtnProperty/CMakeLists.txt */,
+			);
+			name = QtnProperty;
+			sourceTree = "<group>";
+		};
+		662F20F90983446495CA0115 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C85505F993F43129F189003 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyBool.cpp */,
+				C31D8DE00241481CB45EA7F8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyDouble.cpp */,
+				BD55AEA0E2DD47469936C6B9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnum.cpp */,
+				8A950F2DC4B7483685376412 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnumFlags.cpp */,
+				B74E321A20B548F5943D4BCE /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyFloat.cpp */,
+				A2835E832C7848E4997BC2E5 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyInt.cpp */,
+				5D27C80BD8CB44B79DF139E9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPoint.cpp */,
+				0651C217A75F4DEC9C5AD890 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPointF.cpp */,
+				0A7E83C7CC704D9AA3FF24D1 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRect.cpp */,
+				25E35FF672EF4C3A971E1455 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRectF.cpp */,
+				80CA1793590E4E37BB090958 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSize.cpp */,
+				3BD74CB4A0694927B3E27005 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSizeF.cpp */,
+				A21A9B75728948D0A09478B2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQString.cpp */,
+				8965F31E2C4B4A9E919A524F /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyUInt.cpp */,
+				3704E188C4914ECAAADF93A7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Enum.cpp */,
+				F717A535953A4E28A08C556D /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyButton.cpp */,
+				C5AF85DD00B2459BA4D9710D /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQBrush.cpp */,
+				68E650AD2C9B4BD7817A710A /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQColor.cpp */,
+				DA9A2CE8355145B5AF75B785 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQFont.cpp */,
+				FA2E52C7AC4C4183B96A197A /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQPen.cpp */,
+				BFCC234AACAE42C78570472C /* /Users/admin/Documents/projects/github/QtnProperty/Core/Property.cpp */,
+				6E37FD9A2C0B4F7E859C2C6C /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyBase.cpp */,
+				61B6A70030B14B86A9D3C586 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertySet.cpp */,
+				B08FB76E70774ED1A9F8FDB2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/QObjectPropertySet.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		76C3029AE0A74D32B26294BD = {
+			isa = PBXGroup;
+			children = (
+				55557DB1AD394E7FAE38FB64 /* QtnProperty */,
+				3EDF329DE828435C993600A5 /* ALL_BUILD */,
+				D48F03A0F32042CA9D3400D5 /* Core */,
+				2295ED95DD1F4AF1AAF7F3B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D48F03A0F32042CA9D3400D5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				662F20F90983446495CA0115 /* Source Files */,
+				FBEE54B072CF4E6D895E57F5 /* Header Files */,
+				BF2F098FC9334313A4522AEB /* /Users/admin/Documents/projects/github/QtnProperty/Core/CMakeLists.txt */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FBEE54B072CF4E6D895E57F5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F5A85CF7ADB4D989B798D0B /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyAux.h */,
+				84BA52CF13B643C1A41ED0D4 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyDelegateInfo.h */,
+				C29A41B4CDF84BC59E6B27F7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyMacro.h */,
+				555F42A049C04469BDEA4AD9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Auxiliary/PropertyTemplates.h */,
+				76F7022AC4FE4D839935E15D /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyBool.h */,
+				3F04524DD2E54220BEEF37B2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyDouble.h */,
+				1F0F2D431BAA4D289CDFD8F7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnum.h */,
+				A8D768BB7FF74A5CB9FC3879 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnumFlags.h */,
+				DD150D5121754E8595593E5C /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyFloat.h */,
+				F7CE967586DB440FBA0E62F2 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyInt.h */,
+				1825E0085B924594888C7804 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPoint.h */,
+				1631A2910A6548818E74C152 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPointF.h */,
+				0B7F8C5A646148298656BFEA /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRect.h */,
+				889F1EB60170439F89FAEF4E /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRectF.h */,
+				7EB648DB4BE64230A0B71A03 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSize.h */,
+				8819ED83CD0545FBA712CF95 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSizeF.h */,
+				717CA42473374454851FE318 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQString.h */,
+				C21D53A01F284CE799909D7E /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyUInt.h */,
+				8293F6D366F4448E8271C609 /* /Users/admin/Documents/projects/github/QtnProperty/Core/CoreAPI.h */,
+				EDF2D8175823445B825BDDF8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Enum.h */,
+				A74E2B95AA9B4234B858EE90 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyButton.h */,
+				5A5BA59E590243A39FA3FCDC /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQBrush.h */,
+				B45E050BD680403EAE001D6A /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQColor.h */,
+				20232F5DF5AB41C0973074EF /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQFont.h */,
+				DBC6B03DDE8E45D780D6B52B /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQPen.h */,
+				A764D25F85494A6592A2DBAF /* /Users/admin/Documents/projects/github/QtnProperty/Core/Property.h */,
+				0800F8285248447DB18149B4 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyBase.h */,
+				759A0DC0DED5455BA1D7794E /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyCore.h */,
+				06DB789E9C834C5EB2CFAC9B /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyGUI.h */,
+				2D50AC34D4414CA5A742D0D8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertySet.h */,
+				0B446E1EAE5A4B24A330C1FC /* /Users/admin/Documents/projects/github/QtnProperty/Core/QObjectPropertySet.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		866C42045C214DB98DFC9DF1 /* QtnProperty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5FB691D8F4409A81B69579 /* Build configuration list for PBXNativeTarget "QtnProperty" */;
+			buildPhases = (
+				55FBF375FF29459E91713898 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBF850D0E364CC8B2FF7527 /* PBXTargetDependency */,
+				B5F125B651D743E5AA448B38 /* PBXTargetDependency */,
+			);
+			name = QtnProperty;
+			productName = QtnProperty;
+			productReference = B7FBB41D942344CA87549BB3 /* QtnProperty */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E5D1209194B14338B3FAD226 /* Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7A2C5B3E49D40619293D1B9 /* Build configuration list for PBXNativeTarget "Core" */;
+			buildPhases = (
+				3D9A110A78DB418190109DC2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Core;
+			productName = Core;
+			productReference = C9301CBD4C414460BF4CB9F8 /* Core */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		131FD5CE505F476B8DBD5928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = EDFF5FAA447E428D9B8C4CCE /* Build configuration list for PBXProject "QtnProperty" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				443B65E1D8BF4BD7A2D3E610 /* Debug */,
+				66253756F3D64A75B20EB640 /* Release */,
+				667BA314C08F4FA8AEF1C5D6 /* MinSizeRel */,
+				F9064B5A02ED4CE085BDF19C /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 76C3029AE0A74D32B26294BD;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				C8796CF207114B629424F1BB /* ALL_BUILD */,
+				E5D1209194B14338B3FAD226 /* Core */,
+				866C42045C214DB98DFC9DF1 /* QtnProperty */,
+				DDCFC5D297324E7CAC8E8B56 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B533AE33C134CAAAF4AA923 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/admin/Documents/projects/github/QtnProperty/build -f /Users/admin/Documents/projects/github/QtnProperty/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		85402E7B92B04E5DAD678B95 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/admin/Documents/projects/github/QtnProperty/build -f /Users/admin/Documents/projects/github/QtnProperty/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9DD7F222B7D749889D6CBE61 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DD36D3927F3B4076BCC72415 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D9A110A78DB418190109DC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F211EE75B7E747ABA70F66D0 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyBool.cpp */,
+				5F5760038D954503B419FA1B /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyDouble.cpp */,
+				07DB4F127F604852BF9CB319 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnum.cpp */,
+				D8BD05EC68984837A6F54D91 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyEnumFlags.cpp */,
+				E30762EC07AA4105909C70A9 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyFloat.cpp */,
+				2A5F0A6A07D34897A317C7DF /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyInt.cpp */,
+				90BB9E958F784587BBAF9886 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPoint.cpp */,
+				F7ECF615B06149C68155009A /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQPointF.cpp */,
+				BD59BF4A5E63477E9A0D2505 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRect.cpp */,
+				4B3959480C5B4C3AAA3E6EE5 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQRectF.cpp */,
+				E2DCE4C9EE0144A396FD23B0 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSize.cpp */,
+				D5AC1F20EF214C5290937AE8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQSizeF.cpp */,
+				B10F91AF8669478083D6327E /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyQString.cpp */,
+				AD68EDA6212B49A693C09D7C /* /Users/admin/Documents/projects/github/QtnProperty/Core/Core/PropertyUInt.cpp */,
+				B453B522E4B04FD689BC0FE7 /* /Users/admin/Documents/projects/github/QtnProperty/Core/Enum.cpp */,
+				9884438E2B484F20A1B39EB8 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyButton.cpp */,
+				FFDD98EEBA004C709ACB6C54 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQBrush.cpp */,
+				069E59DD20AE4808B98FDA08 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQColor.cpp */,
+				BF8FAD0ADE7D4899975F4537 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQFont.cpp */,
+				98E6423959E74BE6A5644DA0 /* /Users/admin/Documents/projects/github/QtnProperty/Core/GUI/PropertyQPen.cpp */,
+				A1A4B7F9BBA64AD5A66170CB /* /Users/admin/Documents/projects/github/QtnProperty/Core/Property.cpp */,
+				A4BF27FA6A8648CAA8DCA448 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertyBase.cpp */,
+				3E874FD82F8846D6A22CE650 /* /Users/admin/Documents/projects/github/QtnProperty/Core/PropertySet.cpp */,
+				15EAD201510246F29D33686B /* /Users/admin/Documents/projects/github/QtnProperty/Core/QObjectPropertySet.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FBF375FF29459E91713898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE8BC556CE64852A64C6A9F /* /Users/admin/Documents/projects/github/QtnProperty/src/dump.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1378798096704A3D8D0568A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCFC5D297324E7CAC8E8B56 /* ZERO_CHECK */;
+			targetProxy = BA15771C954D4F8881E53848 /* PBXContainerItemProxy */;
+		};
+		4FD6CE546C7C4FB384A72C8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5D1209194B14338B3FAD226 /* Core */;
+			targetProxy = 6639CE3F1628492684DC2791 /* PBXContainerItemProxy */;
+		};
+		B5F125B651D743E5AA448B38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCFC5D297324E7CAC8E8B56 /* ZERO_CHECK */;
+			targetProxy = 402E8D142863472BB6D837CE /* PBXContainerItemProxy */;
+		};
+		E58E6D82823349DB83274CA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 866C42045C214DB98DFC9DF1 /* QtnProperty */;
+			targetProxy = 97DC6E45959F4225AA26A24A /* PBXContainerItemProxy */;
+		};
+		ECBF850D0E364CC8B2FF7527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5D1209194B14338B3FAD226 /* Core */;
+			targetProxy = E48C72DBD8644C45A0373E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0142A4E6C5F1488FA1130FC5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0BC7E7A9B398418987B4DD73 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build/build;
+			};
+			name = MinSizeRel;
+		};
+		0FA78208B1FF4F82BCD100E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build/build;
+			};
+			name = Debug;
+		};
+		19614145D8424352B003154B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion '-Wformat=2' -Werror '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtnProperty;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4723B2228E864520A763BB93 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5F7DB57348F849C0937425D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6234F522CBF8444C8C34E16E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion '-Wformat=2' -Werror '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtnProperty;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8CC5341DB83B4AD385A478D6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		8D3770195D0D43B7B68C450B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion '-Wformat=2' -Werror '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtnProperty;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8D4B8D70449D448DBD675F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9829354C0C4E4001AD096703 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9C3E6CC310114CEFA8E8DFD3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A69DD089A6CD4A5A9DF5AC70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/usr/local/opt/qt/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build/Core;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/opt/qt/lib/QtWidgets.framework/Headers,/usr/local/opt/qt/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/usr/local/opt/qt/lib/QtCore.framework/Headers,"/usr/local/opt/qt/./mkspecs/macx-clang");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B27B63B52E854CD589BBFCC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D3862AB7B55B4C02AA8B7FF0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wpedantic -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion '-Wformat=2' -Werror '-std=gnu++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = QtnProperty;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E775B9461F904AF888A13AC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/usr/local/opt/qt/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build/Core;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/opt/qt/lib/QtWidgets.framework/Headers,/usr/local/opt/qt/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/usr/local/opt/qt/lib/QtCore.framework/Headers,"/usr/local/opt/qt/./mkspecs/macx-clang");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EB7BA0FEE7C147C2B1D106A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build/build;
+			};
+			name = Release;
+		};
+		EE9EA9B656B245D39747AE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EED0AA8989E644BE94CC2928 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/usr/local/opt/qt/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build/Core;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/opt/qt/lib/QtWidgets.framework/Headers,/usr/local/opt/qt/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/usr/local/opt/qt/lib/QtCore.framework/Headers,"/usr/local/opt/qt/./mkspecs/macx-clang");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FFF25731246143A2B6660234 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				FRAMEWORK_SEARCH_PATHS = (/usr/local/opt/qt/lib);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",QT_WIDGETS_LIB,QT_GUI_LIB,QT_CORE_LIB,QT_NO_DEBUG);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=gnu++11'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/admin/Documents/projects/github/QtnProperty/build/Core;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/opt/qt/lib/QtWidgets.framework/Headers,/usr/local/opt/qt/lib/QtGui.framework/Headers,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers,/usr/local/opt/qt/lib/QtCore.framework/Headers,"/usr/local/opt/qt/./mkspecs/macx-clang");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292B57DBCEDF48B990316081 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D4B8D70449D448DBD675F8C /* Debug */,
+				EE9EA9B656B245D39747AE45 /* Release */,
+				9C3E6CC310114CEFA8E8DFD3 /* MinSizeRel */,
+				4723B2228E864520A763BB93 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6602FF8B484A4EF39D25EA7E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7DB57348F849C0937425D6 /* Debug */,
+				B27B63B52E854CD589BBFCC0 /* Release */,
+				9829354C0C4E4001AD096703 /* MinSizeRel */,
+				0142A4E6C5F1488FA1130FC5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AE5FB691D8F4409A81B69579 /* Build configuration list for PBXNativeTarget "QtnProperty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19614145D8424352B003154B /* Debug */,
+				8D3770195D0D43B7B68C450B /* Release */,
+				6234F522CBF8444C8C34E16E /* MinSizeRel */,
+				D3862AB7B55B4C02AA8B7FF0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7A2C5B3E49D40619293D1B9 /* Build configuration list for PBXNativeTarget "Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E775B9461F904AF888A13AC6 /* Debug */,
+				A69DD089A6CD4A5A9DF5AC70 /* Release */,
+				EED0AA8989E644BE94CC2928 /* MinSizeRel */,
+				FFF25731246143A2B6660234 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EDFF5FAA447E428D9B8C4CCE /* Build configuration list for PBXProject "QtnProperty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FA78208B1FF4F82BCD100E7 /* Debug */,
+				EB7BA0FEE7C147C2B1D106A5 /* Release */,
+				0BC7E7A9B398418987B4DD73 /* MinSizeRel */,
+				8CC5341DB83B4AD385A478D6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 131FD5CE505F476B8DBD5928 /* Project object */;
+}
