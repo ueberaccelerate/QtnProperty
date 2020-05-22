@@ -1,6 +1,6 @@
 project (Core)
 
-add_library( Core 
+add_library( Core STATIC
 PropertyBase.cpp 
 Property.cpp 
 PropertySet.cpp 

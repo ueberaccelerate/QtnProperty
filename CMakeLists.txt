@@ -9,9 +9,11 @@ add_library ( cppfeatures INTERFACE )
 set_project_warinigs( cppwarnings )
 target_compile_features( cppfeatures INTERFACE cxx_std_17 )
 
-add_library( QtnProperty src/dump.cpp)
+add_library( QtnProperty STATIC src/dump.cpp)
 
-
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
 find_package(Qt5 COMPONENTS Widgets Core REQUIRED)
 
 target_link_libraries ( QtnProperty PRIVATE cppfeatures cppwarnings)

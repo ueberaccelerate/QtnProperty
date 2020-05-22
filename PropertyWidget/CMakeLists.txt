@@ -1,6 +1,6 @@
 project (PropertyWidget)
 
-add_library( PropertyWidget
+add_library( PropertyWidget STATIC
   PropertyWidget.cpp 
   PropertyView.cpp 
   Utils/InplaceEditing.cpp 
